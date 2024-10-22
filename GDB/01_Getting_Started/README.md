@@ -22,7 +22,7 @@ int main(int argc, const char * argv[])
     return 0;
 }
 ```
-
+#GDB opening coredump
 ```bash
 harry@debian:~/C/GDB/01_Getting_Started$ gdb -c /var/crash/core.App0.3929 -se App0
 GNU gdb (Debian 13.1-3) 13.1
@@ -49,8 +49,7 @@ Program terminated with signal SIGABRT, Aborted.
 #0  __pthread_kill_implementation (threadid=<optimized out>, signo=signo@entry=6, no_tid=no_tid@entry=0) at ./nptl/pthread_kill.c:44
 44	./nptl/pthread_kill.c: No such file or directory.
 ```
-
-# Backtrace
+# backtrace command
 ```bash
 (gdb) bt
 #0  __pthread_kill_implementation (threadid=<optimized out>, signo=signo@entry=6, no_tid=no_tid@entry=0) at ./nptl/pthread_kill.c:44
@@ -82,6 +81,7 @@ No locals.
 #6  0x000055d2283fe16c in main (argc=1, argv=0x7ffdd47e4b18) at App.c:15
 No locals.
 ```
+# info command
 ```bash
 (gdb) info threads
   Id   Target Id                        Frame 
@@ -118,6 +118,9 @@ rip            0x7f8c5d0cae3c      0x7f8c5d0cae3c <__pthread_kill_implementation
 raise in section .text of /lib/x86_64-linux-gnu/libc.so.6
 (gdb) info address raise
 Symbol "raise" is at 0x7f8c5d07bfa0 in a file compiled without debugging.
+```
+# examine command
+```bash
 (gdb) x/24i 0x7f8c5d07bfa0
    0x7f8c5d07bfa0 <__GI_raise>:	push   %rbx
    0x7f8c5d07bfa1 <__GI_raise+1>:	mov    %edi,%ebx
@@ -151,6 +154,9 @@ Symbol "raise" is at 0x7f8c5d07bfa0 in a file compiled without debugging.
 0x7f8c5d07bfa0 <__GI_raise>:	"S\211\373\35086\005"
 0x7f8c5d07bfa8 <__GI_raise+8>:	"\211\336H\211\307\350\336\356\004"
 0x7f8c5d07bfb2 <__GI_raise+18>:	"\205\300u\n[\303\017\037\204"
+```
+# disassemble command
+```bash
 (gdb) disassemble raise
 Dump of assembler code for function __GI_raise:
    0x00007f8c5d07bfa0 <+0>:	push   %rbx
@@ -170,6 +176,9 @@ Dump of assembler code for function __GI_raise:
    0x00007f8c5d07bfcf <+47>:	pop    %rbx
    0x00007f8c5d07bfd0 <+48>:	ret
 End of assembler dump.
+```
+# help command
+```bash
 (gdb) help disassemblee
 Disassemble a specified section of memory.
 Usage: disassemble[/m|/r|/s] START [, END]
