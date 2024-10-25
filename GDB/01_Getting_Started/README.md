@@ -22,7 +22,7 @@ int main(int argc, const char * argv[])
     return 0;
 }
 ```
-#GDB opening coredump
+# GDB opening coredump
 ```bash
 harry@debian:~/C/GDB/01_Getting_Started$ gdb -c /var/crash/core.App0.3929 -se App0
 GNU gdb (Debian 13.1-3) 13.1
