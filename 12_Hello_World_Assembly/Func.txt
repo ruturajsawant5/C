@@ -1,0 +1,15 @@
+return-type func_name(formal parameter list)
+{
+
+}
+
+func_name:
+#PROLOGUE
+pushl %ebp
+movl %esp, %ebp
+#OURCODE
+
+#EPILOGUE
+movl %ebp, %esp
+popl %ebp
+ret
