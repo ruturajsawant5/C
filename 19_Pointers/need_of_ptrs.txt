@@ -1,0 +1,62 @@
+C source code -> Preprocess -> Compile -> Assemble -> Link -> exe 
+                [           STATIC TIME                     ]
+
+exe is run using double clicking on it or 
+giving exe path to command interpreter 
+When exe starts running, it becomes a process / application 
+
+PROCESS START           PROCESS END 
+        [DYNAMIC TIME / RUN TIME ]
+
+1) Static Memory Allocation 
+2) Dynamic Memory Allocation 
+
+///////////////////////////////////////////////////////////////////////
+
+int num;    /* STATIC MEMORY ALLOCATION */ 
+
+int main(void)
+{
+    int n;  /* DYNAMIC MEMORY ALLOCATION */ 
+
+    scanf("%d", &n); 
+    if(n > 0)
+        f(); 
+    else 
+        g(); 
+}
+
+void f()
+{
+    int k; 
+}
+
+void g()
+{
+    int x; 
+}
+
+void h(int m, int n)    /* DYNAMICALLY */
+{
+
+}
+///////////////////////////////////////////////////////////////////////
+
+DYNAMIC MEMORY ALLOCATION: 
+    1) NAMED MEMORY ALLOCATION 
+    2) ANONYMOUS MEMORY ALLCOATION 
+
+///////////////////////////////////////////////////////////////////////
+1)  NAMED MEMORY ALLOCATION -> STATIC 
+2)  NAMED MEMORY ALLOCATION -> DYNAMIC 
+3)  ANONYMOUS MEMORY ALLOCATION -> DYNAMIC 
+/////////////////////////////////////////////////////////
+
+NAMED MEMORY ALLOCATION (STATIC OR DYNAMIC ) vs 
+
+ANONYMOUS MEMORY ALLOCATION (DYNAMIC) 
+
+ANALYSIS WITH RESPECT TO 
+    1)  VISIBILITY 
+    2)  LIFE-TIME 
+///////////////////////////////////////////////////////////

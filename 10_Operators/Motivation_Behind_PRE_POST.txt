@@ -1,0 +1,53 @@
+num = num + 1 
+add instruction can be used for adding 1 to num 
+
+num = num - 1 
+sub instruction can be used for subtracting 1 from num 
+#---------------------------------------------------------
+Instruction Design: 
+    CISC -> Complex Instruction Set Computer 
+    Early generation micro-processor 
+
+    RISC -> Reduced Instruction Set Computer 
+    Recent microprocessor 
+
+MEALS 
+    FRIES       -> 
+    BURGER      -> 
+    BEVERAGE    -> 
+
+    I1 
+    I2 
+    I3 
+
+    CI = I1 + I2 + I3 
+
+    num = num + 1 
+    add + mov 
+    incl num 
+
+    num = num - 1 
+    sub + mov 
+    decl num 
+
+    ADDRESSING MODE: 
+        PRE-INCREMENT / POST-INCREMENT 
+        PRE-DECREEMENT / POST-DECREMENT 
+
+        add mov 
+
+        num = num + 1; 
+
+        inc 
+
+MICROPROCESSOR IMPLEMENTATION TECHNOLOGY INNOVATION 
+    i)  BRANCH PREDICTION 
+    ii) OUT OF ORDER EXECUTION ENGINE 
+    iii) INCREASED STAGES OF PIPELINE 
+
+#-------------------------------------------------------
+
+num = num + 1 
+
+++num 
+num++

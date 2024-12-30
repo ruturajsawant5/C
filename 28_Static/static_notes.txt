@@ -1,0 +1,51 @@
+void test(void)
+{
+    int n; 
+}
+
+//  Local data definition statement without keyword static 
+
+//  Storage strategy: Allocated newly per function call.
+//  Time of allocation: time of function 
+//  Time of de-allocation (freeing): return of function 
+//  Storage place: stack frame of the function created in 
+//  stack section in response to function call
+
+//  Because it is allocated per call and freed at the end of the 
+//  call, it cannot retain value across two successive calls 
+
+
+//  Re-entrant function: 
+//      A function is re-entrant if its  another instance 
+//      may be spawned while its one instance is already 
+//      going on. 
+
+//  
+//  Re-entrant functions appear in three scenarios 
+//  1) Recursion 
+//  2) Multithreading (Reentracy of kind 1)
+//  3) Interrupt handling (asynchronous calls) (Reentrancy of kind 2)
+
+-----------------session 068 notes--------------------------------------------
+
+void test(void)
+{
+    static int n = 1; 
+}
+
+//  n is known as local static variable because 
+//  its data definition statement is local to test() 
+//  its data definition statement is qualitifed by the keyword static 
+
+//  storage strategy: n is allocated only once, and not per call to test() 
+//  function. Therefore, there is ONLY one copy of n amongst all calls 
+//  to test() function. 
+
+//  time of allocation: at the start of program 
+//  time of de-allocation (freeing) : at the end program 
+//  local static variable : lives as long as the program lives 
+//  storage section: BSS (local common memory area)
+//  as there is only one copy of local static variable amongst all 
+//  calls to a function containing it, changes made in it by one call to function 
+//  are reflected in next call. In other words, the local static variable preserves its 
+//  value across two successive calls to function 
