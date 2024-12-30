@@ -1,0 +1,32 @@
+# gcc -S -o hello.S hello.c 
+
+gcc -> Name of command. 
+It is an external command. 
+
+
+Path of executable file? 
+/usr/bin/gcc 
+
+root directory -> usr -> bin -> gcc 
+
+# /usr/bin/gcc -> Not necessary. 
+Why? 
+
+Because /usr/bin is a standard search path 
+
+Therefore 
+
+#gcc 
+#------------------------------------------------------
+Command line switch 1 
+
+-S : Run compiler to convert hello.c into hello.S and stop! 
+#------------------------------------------------------
+Command line switch 2 
+-o : Name of output file 
+-o is an option with argument. 
+Therefore, it must be followed by the name of the output file 
+#------------------------------------------------------
+hello.c -> input C file (jya C source code ch translation 
+assembly madhye karayche ahe ti file)
+#------------------------------------------------------

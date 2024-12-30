@@ -1,0 +1,31 @@
+char first_letter = 'Y'; 
+char second_letter = 'o'; 
+char third_letter = 'g'; 
+char fourth_letter = 'e';
+char fifth_letter = 's'; 
+char sixth_letter = 'h'; 
+char seventh_letter = 'w'; 
+char eighth_letter = 'a'; 
+char ninth_letter = 'r'; 
+
+"Yogeshwar"; // sequence of characters or string  
+string = माळ किंवा एका मागून एक येणाऱ्या गोष्टी 
+
+int main(void)
+{
+
+}
+
+'Y'; // 1 byte allocation -> initialization ascii code of 'Y' 
+
+char c = 'Y'; 
+
+?  = "Yogeshwar"; 
+
+//array 
+char msg[] = "Yogeshwar"; 
+
+or 
+
+// pointer 
+char* s = "Yogeshwar"; 

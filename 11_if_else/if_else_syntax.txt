@@ -1,0 +1,34 @@
+int main(void)
+{
+    st1; 
+    st2; 
+    if(cond)
+    {
+        st_if_1; 
+        st_if_2; 
+
+
+        st_if_N; 
+    }
+    else 
+    {
+        st_else_1; 
+        st_else_2; 
+
+
+        st_else_M; 
+    }
+    st4; 
+    st5; 
+    exit(0); 
+}
+
+if(cond)
+{
+    BLOCK OF STATEMENTS 
+}
+else 
+{
+    BLOCK OF STATEMENTS 
+}
+

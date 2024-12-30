@@ -1,0 +1,38 @@
+
+
+f1()
+{
+
+} 
+..... 
+
+f_1000()
+{
+
+}
+
+The libray file is a binary file. 
+It contains definition of all functions in machine language form! 
+
+We ask library developer to create a text file containing 
+declarations of all 1000 functions that are callable and 
+implemented in library. 
+
+That text file is known as a header file. 
+
+Amongst other things, header file cotaints 
+    1)  data declaration statements 
+    2)  Type (struct) definition statements 
+    3)  typedefs 
+    4)  definition of inline functions 
+    5)  Preprocessor directives (conditional inclusion)
+    6)  Symbolic constants 
+    7)  Macros 
+
+cpa_math.h 
+
+STANDARD EXECUTABLE PATHS: /bin, /usr/bin, /usr/local/bin
+
+STANDARD LIBRARY PATHS: /lib, /usr/lib, /usr/local/lib
+
+STANDARD INCLUDE PATHS: /usr/include, /usr/local/include 

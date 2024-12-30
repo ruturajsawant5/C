@@ -1,0 +1,93 @@
+You must learn four things about operators. 
+
+1)  Ary of an operator. 
+2)  Sequence of operands and operator. 
+3)  Relative precedence of an operator. 
+4)  Associativity of an operator. 
+
+Ary of operator: 
+    Number of operands that must be given to operator 
+    for its proper functioning.
+
+    Operators which require only one data element (one 
+    operand) are known as unary operators. 
+
+    Operators which require two data elements (two operands)
+    are known as binary operands. 
+
+    Examples: 
+    
+    unary: Logical not, bitwise not, ampersed and  
+
+    binary: addition, subtraction, 
+            multiplication, division, 
+            comparison operators 
+
+    Majority of the ALU (= arithmetic & logic) operators 
+    are binary. Few of them are unary. 
+#---------------------------------------------------------------
+Sequence of writing operators and operands: 
+
+    In unary operator, there is one operator and one operand. 
+
+        operator operand  -> Prefix squence 
+        OR 
+        operand operator  -> Postfix sequence 
+
+    In binary operator, there are two operands and one operator. 
+
+        Operand_1 Operator Operand_2 -> Infix sequence 
+        OR 
+        Operator Operand_1 Operand_2 -> Prefix sequence 
+        OR 
+        Operand_1 Operand_2 Operator -> Postfix sequence 
+
+        e.g 
+        a + b   -> Infix sequence 
+        + a b   -> Prefix sequence 
+        a b +   -> Postfix sequence
+#---------------------------------------------------------------  
+Relative precedence of operator 
+[
+    Bracket 
+
+    ORDER 
+
+    Division 
+
+    Multiplication 
+
+    Addition 
+
+    Subtraction 
+] 
+#--------------------------------------------------------------- 
+Associativity: 
+    
+# -> Operator 
+
+a # b # c 
+
+(a # b) # c     LEFT ASSOCIATIVE 
+= 
+a # (b # c)     RIGHT ASSOCIATIVE 
+
+a + b + c 
+
+(a + b) + c = 
+a + (b + c)
+
+a * b * c 
+
+(a * b) * c 
+= 
+a * (b * c)
+
+a - b - c 
+
+a + b + c 
+
+a + b - c 
+
+lhs = rhs; 
+#--------------------------------------------------------------- 

@@ -1,0 +1,35 @@
+# ld -o hello -lc -dynamic-linker /lib/ld-linux.so.2 hello.o -e main
+
+Command Name: ld 
+Type of command: external 
+Path: /usr/bin/ld 
+
+As /usr/bin is a standard search path, we need not type 
+Absolute path on terminal, only typeing ld is enough. 
+
+#-----------------------------------------------------------
+Command line switch 1: 
+
+-o: Specifies an output file name. It must be followed by the 
+name of executable file. 
+
+ld -o hello 
+
+(this will name exe file as hello)
+#--------------------------------------------------------------
+Command line switch 2: 
+
+-l: Link dynamic link library 
+
+ld command requires only NAME of library file 
+without prefix lib and extension so and version 
+
+libc-2.23.so 
+
+lib->Nakoy 
+-2.23 -> version -> Nakoy 
+.so -> extension -> Nakoy 
+
+rahila kay? c 
+
+-lc 

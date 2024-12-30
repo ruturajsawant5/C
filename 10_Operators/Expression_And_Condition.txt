@@ -1,0 +1,27 @@
+Def: Expression:    Any valid combination of operators and operands is called as 
+                    an expression. 
+#--------------------------------------------
+Validity check? 
+    valid on basis of 
+        i) ary 
+        ii) operator operand sequence 
+#--------------------------------------------
+        iii) Precedence 
+        iv) Associativity 
+#--------------------------------------------        
+Left hand side expression (lhs expression)
+Right hand side expression (rhs expression)
+expr  =  expr;
+a = 10; 
+10 -> rhs expression 
+a -> lhs expression 
+#--------------------------------------------   
+CONDITION: 
+    ANY EXPRESSION WHICH EVALUATES TO BOOLEAN 
+    VALUE IS CALLED AS A CONDITION. 
+#----------------------------------------------
+CONDITION = BOOLEAN EXPRESSION 
+INTEGER EXPRESSION 
+FLOATING POINT EXPRESSION 
+CHARACTER/STRING EXPRESSION 
+#-----------------------------------------------

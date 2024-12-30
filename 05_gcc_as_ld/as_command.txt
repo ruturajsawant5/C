@@ -1,0 +1,31 @@
+# as -o hello.o hello.S 
+
+as: Is an external command. That means, it is an executable 
+file on disk. 
+
+Path: /usr/bin/as 
+
+Under root directory -> usr directory -> bin directory -> as 
+
+Absolute path is not required on terminal. 
+Why? 
+Because /usr/bin is a standard executable search path. 
+
+#---------------------------------------------------------------
+Command line switch 1 
+
+-o : The name of output file. 
+It is a switch/option with argument. Therefore, -o must be 
+followed by the output file name. 
+
+hello.o: .o extension stands for the object file. 
+The file in which machine language code is stored is known 
+as an object file. Object file is a binary file. 
+
+#------------------------------------------------------------
+
+hello.S : Input assembly file (jya assembly code che transla-
+tion object file madhye karayche ahe ti file)
+
+#------------------------------------------------------------
+

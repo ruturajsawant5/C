@@ -1,0 +1,21 @@
+We have learnt that libraries come in two flavours 
+
+1) static link library 
+2) dynamic link library 
+
+libraries are attached (or linked) with the object 
+file of our source code so that built in algorithms 
+used in the source code will work! 
+
+the software which carries out this linking process 
+is called as linker. 
+
+Like libraries, linker also come in two flavours 
+
+i) static linker for linking static link libraries 
+ii) dynamic linker for linking dynamic link libraries 
+
+On Linux OS: /usr/bin/ld itself is a static linker 
+/lib/ld-linux.so.2 is a dynamic linker
+
+

@@ -1,0 +1,19 @@
+All data that you want to display on standard outout device 
+must be converted into its string format. 
+
+
+"Hello,World" 
+
+"This is a start of program"
+
+num -> int 
+[   ][  ][  ][  ]
+
+10010001 -> Integer representation of num 
+
+This must be converted into a string 
+
+110001 110100 110101 -> STRING (145)
+
+
+ASCII(1) ASCII(4)  ASCII(5)

@@ -1,0 +1,33 @@
+Library = Is a collection of built in algorithms. 
+Library file contains built in algorithms in machine language 
+form. Therefore, it is a binary file. 
+
+Libraries come into flavours: 
+
+i)  Windows terms:  static link library (extension: .lib)
+    Linux terms:    archive file        (extension: .a)
+
+ii) Windows terms:  dynamic linker library  (extension: .dll)
+    Linux terms:    shared object file      (extension .so)
+#------------------------------------------------------------------
+On Linux operating system, dynamic link library names follow 
+a specific convention. 
+
+Their name must start with prefix lib 
+
+lib
+
+Followed by the actual name of library 
+
+libNAME
+
+Followed by .so extension 
+
+libNAME.so 
+
+Followed by version 
+
+libNAME.so.version 
+
+-lNAME
+

@@ -1,0 +1,65 @@
+---------------------------------------------------------
+
+get_tea_proportions
+    Let n be the number of cups of tea you wanna prepare 
+
+    quantity_of_milk / water / tea / sugar 
+
+first_number 
+second_number 
+
+---------------------------------------------------------
+
+first_number - second_number > 0 
+first_number - second_number < 0 
+first_number - second_number == 0 
+
+1) 10, 6
+2) 4, 9 
+3) 82, 18 
+
+----------------------------------------------------
+
+SUBJECT: SCIENCE 
+CHAPTER : WATER 
+
+suphen 
+dushphen 
+
+---------------------------------------------------------
+
+Richard Feynman 
+1)  Pleasure of finding things out. 
+  
+TERM : CONCEPT : 
+
+---------------------------------------------------------
+
+std::string 
+char* 
+
+---------------------------------------------------------
+
+Zen Buddhism 
+Thich Hath Nan -> Buddhist Monk 
+-> Mindfulness 
+
+---------------------------------------------------------
+
+"""
+Beginners mind has many possibilities 
+and expert's mind has few. 
+"""
+
+---------------------------------------------------------
+
+switch 10L-12L 
+
+EXPERT -> BEGINNER 
+
+---------------------------------------------------------
+
+TERM ONLY NO CONCEPT  + UNBEARABLE INFERIORITY COMPLEX 
+= IT BOLBACCHAN 
+
+#--------------------------------------------------------
